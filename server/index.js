@@ -1,4 +1,5 @@
 // app.js or server.js
+require('dotenv').config()
 const express = require("express");
 const bodyParser = require("body-parser");
 // const mongoose = require("./Database/connection.js"); // Include the database connection
@@ -9,7 +10,8 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors())
-const port = 5000;
+const port = process.env.PORT || 4000;
+
 
 
 app.use(bodyParser.json());
