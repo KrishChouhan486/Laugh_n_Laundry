@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 
 import "../Project.css";
-import img1 from "../Component/images/smile.png";
+// import img1 from "../Component/images/smile.png";
 import img2 from "../Component/images/Washing Maching.png";
 import img3 from "../Component/images/step1.jpeg";
 import img4 from "../Component/images/step2.jpeg";

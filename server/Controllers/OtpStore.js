@@ -1,6 +1,6 @@
 const connection = require("../Database/connection.js");
 
-const storeOTP = async (email, otp) => {
+const storeOTP = async (res,email, otp) => {
   try {
     if (!email || !otp) {
       return res.status(400).json({ error: 'Email and OTP are required in the request body' });
